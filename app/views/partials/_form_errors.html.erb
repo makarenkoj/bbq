@@ -2,9 +2,8 @@
 
 <% if errors.any? %>
   <div class="alert alert-danger">
-    <div class="lead buffer-bottom">
-      В вашей форме <%= errors.count %> ошибок
-    </div>
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <%= I18n.t("event.errors.messages.not_saved", count: errors.count)%>
 
     <ul>
       <% errors.full_messages.each do |message| %>

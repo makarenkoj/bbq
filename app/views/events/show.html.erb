@@ -16,8 +16,12 @@
 
           <% if current_user_can_edit?(@event) %>
             <div class="buffer-both">
-              <%= link_to 'Изменить', edit_event_path(@event),
-                          class: 'btn btn-primary' %>
+              <%= link_to I18n.t('event.change'), edit_event_path(@event),
+                          class: 'btn btn-primary buffer-right' %>
+
+              <%= link_to I18n.t('event.destroy'), event_path(@event),
+                          data: {confirm: "Вы действительно хотите удалить событие?"},
+                          method: :delete, class: "btn btn-danger" %>
             </div>
           <% end %>
         </div>
