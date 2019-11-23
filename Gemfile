@@ -16,6 +16,8 @@ gem 'bootsnap'
 gem 'listen'
 
 gem 'devise'
+gem 'devise-i18n'
+gem 'russian'
 
 group :development, :test do
   gem 'sqlite3'

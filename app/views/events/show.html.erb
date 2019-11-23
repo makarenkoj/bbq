@@ -8,7 +8,7 @@
         <div class="col-md-6">
           <div class="event-description">
             <h1><%= @event.title %></h1>
-            <h3><%= @event.datetime %></h3>
+            <h3><%= t @event.datetime, format: :short %></h3>
             <h3><small><%= link_to @event.address,
                                    "https://www.google.com/maps/place/#{@event.address}" %></small></h3>
             <p><%= @event.description %></p>

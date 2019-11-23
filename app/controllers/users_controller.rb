@@ -1,6 +1,3 @@
-# (с) goodprogrammer.ru
-#
-# Контроллер, управляющий пользователями
 class UsersController < ApplicationController
   # Встроенный в девайз фильтр — посылает незалогиненного пользователя
   before_action :authenticate_user!, except: [:show]
@@ -17,7 +14,7 @@ class UsersController < ApplicationController
 
   def update
     if @user.update(user_params)
-      redirect_to @user, notice: 'User was successfully updated.'
+      redirect_to @user, notice: i18n.t('controllers.users.updated')
     else
       render :edit
     end
