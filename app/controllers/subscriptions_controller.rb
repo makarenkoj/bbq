@@ -1,6 +1,5 @@
 class SubscriptionsController < ApplicationController
   before_action :set_event, only: [:create, :destroy]
-
   before_action :set_subscription, only: [:destroy]
 
   def create
@@ -16,6 +15,7 @@ class SubscriptionsController < ApplicationController
 
   def destroy
     message = {notice: I18n.t('controllers.subscriptions.destroyed')}
+
     if current_user_can_edit?(@subscription)
       @subscription.destroy
     else
