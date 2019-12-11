@@ -3,6 +3,7 @@ ru:
     models:
       user: 'Пользователь'
       event: 'Событие'
+      photo: 'Фотография'
 
     attributes:
       user:
@@ -16,6 +17,8 @@ ru:
         address: 'Место проведения'
         datetime: 'Дата и время'
         description: 'Описание'
+      photo:
+        photo: 'Фотография'
 
   controllers:
     events:
