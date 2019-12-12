@@ -17,6 +17,9 @@ ru:
         address: 'Место проведения'
         datetime: 'Дата и время'
         description: 'Описание'
+      comment:
+        user_name: 'Ваше имя'
+        body: 'Комментарий'
       photo:
         photo: 'Фотография'
 
