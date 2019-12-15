@@ -32,4 +32,6 @@
 
 public/uploads
 
+credentials.yml.enc
+
 .idea
