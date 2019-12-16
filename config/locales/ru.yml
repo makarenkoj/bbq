@@ -81,7 +81,14 @@ ru:
       event: 'Событие'
       datetime: 'Состоится'
       owner: 'Организатор'
-
+    photo:
+      title: 'Новая фотография'
+      name: 'Имя'
+      email: 'Почта'
+      event: 'Событие'
+      author: 'Автор'
+      owner: 'Организатор'
+      datetime: 'Состоится'
   errors:
     organize_subscribe: 'Вы не можете подписатся на своё событие!'
     user_email: 'Этот почтовый адрес уже зарегестрирован!'

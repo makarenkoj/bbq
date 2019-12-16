@@ -67,7 +67,7 @@ Rails.application.configure do
       address: 'smtp.gmail.com',
       port: '587',
       user_name: 'apps.info.4.you@gmail.com', #почта
-      password: '', #удалить пароль
+      password: 'bileberda', #удалить пароль
       authentication: 'plain',
       enable_starttls_auto: true
   }
