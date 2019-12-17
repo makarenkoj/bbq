@@ -14,6 +14,8 @@ gem 'rails-i18n'
 gem 'carrierwave'
 gem 'rmagick'
 gem 'fog-aws'
+gem 'dotenv-rails', :require => 'dotenv/rails-now'
+gem "recaptcha", require: "recaptcha/rails"
 
 group :development, :test do
   gem 'sqlite3'
