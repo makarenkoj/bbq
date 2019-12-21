@@ -13,7 +13,8 @@
     </div>
   <% end %>
 
-  <%= recaptcha_tags %>
+  <%# хелпер капчи  %>
+  <%= recaptcha_tags unless current_user.present?%>
   <div class="actions">
     <%= f.submit 'Отправить', class: 'btn btn-primary' %>
   </div>
