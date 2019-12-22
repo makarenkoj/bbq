@@ -26,6 +26,9 @@
                           method: :delete, class: "btn btn-danger" %>
             </div>
           <% end %>
+          <div class="col-md-8">
+            <div class="event-map" id="map" data-address="<%= @event.address %>"></div>
+          </div>
         </div>
       </div>
     </div>
