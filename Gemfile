@@ -16,6 +16,8 @@ gem 'rmagick'
 gem 'fog-aws'
 gem 'dotenv-rails', :require => 'dotenv/rails-now'
 gem "recaptcha", require: "recaptcha/rails"
+gem 'lightbox-bootstrap-rails'
+gem 'coffee-rails', '~> 5.0.0'
 
 group :development, :test do
   gem 'sqlite3'
