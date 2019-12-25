@@ -35,3 +35,5 @@ public/uploads
 credentials.yml.enc
 
 .idea
+
+/config/application.yml
