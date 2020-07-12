@@ -1,24 +1,20 @@
-# README
+ [Шашлыки](shashlick.herokuapp.com/)
+=
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Программка для создания встреч и разных мероприятий с друзьями.
 
-Things you may want to cover:
+Пройдите по [ссылке](shashlick.herokuapp.com/) и создайте своё событие для времяприпровождения со своими друзьями.
 
-* Ruby version
+***Для запуска приложения локально:
 
-* System dependencies
+* Установить Ruby;
 
-* Configuration
+* Скачать приложение;
 
-* Database creation
+* Запустить консоль или терминал, перейти в папку с приложением и выполнит следующие команды:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+        `bundle instal`
+        
+        `bundle exec rails db:migrate`
+        
+        `bundle exec rails s`
